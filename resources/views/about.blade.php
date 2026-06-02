@@ -3,9 +3,8 @@
 @section('content')
     <div class="row align-items-center bg-white p-5 rounded-3 shadow">
         <div class="col-md-4 text-center mb-4 mb-md-0">
-            <div class="bg-secondary text-white rounded-circle d-inline-flex align-items-center justify-content-center shadow" style="width: 200px; height: 200px; font-size: 4rem;">
-                👨‍💻
-            </div>
+            <img src="{{ asset('images/foto-profil.png') }}" alt="Foto Bagus Zaka" class="img-fluid rounded-circle shadow border border-3 border-light" style="width: 200px; height: 200px; object-fit: cover;">
+            
             <h4 class="mt-3 fw-bold">Bagus Zaka</h4>
             <p class="text-muted">Mahasiswa Teknik Informatika</p>
         </div>
